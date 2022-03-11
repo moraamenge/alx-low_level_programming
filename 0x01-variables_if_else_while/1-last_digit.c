@@ -1,17 +1,17 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
- * main - Entry point
+ * * main - Entry point
  *
- * Return : always 0 (sucess)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, s;
+	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2 ;
+	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d is %d ", n, n % 10);
 	if (n % 10 > 5)
 		printf("and is greater than 5\n");
