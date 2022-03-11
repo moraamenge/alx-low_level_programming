@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main - assigns random numbers and checks to see if they meet the conditions
+ * main - assigns random numbers to int n
+ * checks to see if they meet the conditions
  * Return : always 0 (success)
  */
 int main(void)
