@@ -10,29 +10,18 @@
 
 void print_diagonal(int n)
 {
-	int filas;
-	int columnas;
+	int i = 0, j;
 
 	if (n > 0)
 	{
-		for (filas = 0; filas < n; filas++)
+		for (; i < n; i++)
 		{
-			for (columnas = 0; coluumnas <= filas; columnas++)
-			{
-				if (filas == columnas)
-				{
-					_putchar('\\');
-					_putchar('\n');
-				}
-				else
-				{
-					_putchar(' ');
-				}
-			}
+			for (j = 0; j < i; j++)
+				_putchar(' ');
+			_putchar(92);
+			_putchar('\n');
 		}
 	}
 	else
-	{
-		putchar('\n');
-	}
+		_putchar('\n');
 }
