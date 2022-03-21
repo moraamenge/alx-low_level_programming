@@ -1,0 +1,10 @@
+# Format Style Options - Created with Clang Power Tools
+---
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: None
+AlignConsecutiveBitFields: None
+ConstructorInitializerIndentWidth : 0
+ContinuationIndentWidth: 0
+IndentWidth: 0
+BreakBeforeBraces: Stroustrup
+...
